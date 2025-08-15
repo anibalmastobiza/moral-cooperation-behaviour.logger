@@ -27,13 +27,13 @@ st.write('Describe una conducta moral y califícala en los dominios de Morality 
 
 description = st.text_area('Descripción de la conducta:')
 
-family = st.slider('Family values: ¿Involucra asignación de recursos a kin?', 1, 5, 3)
-group_loyalty = st.slider('Group loyalty: ¿Involucra coordinación para ventaja mutua?', 1, 5, 3)
-reciprocity = st.slider('Reciprocity: ¿Involucra intercambio social?', 1, 5, 3)
-heroism = st.slider('Heroism: ¿Involucra displays hawkish de dominancia?', 1, 5, 3)
-deference = st.slider('Deference: ¿Involucra displays dovish de deferencia?', 1, 5, 3)
-fairness = st.slider('Fairness: ¿Involucra división de recursos disputados?', 1, 5, 3)
-property = st.slider('Property rights: ¿Involucra reconocimiento de posesión previa?', 1, 5, 3)
+family = st.slider('Valores familiares: ¿Involucra asignación de recursos a kin?', 1, 5, 3)
+group_loyalty = st.slider('Lealtad grupal: ¿Involucra coordinación para ventaja mutua?', 1, 5, 3)
+reciprocity = st.slider('Reciprocidad: ¿Involucra intercambio social?', 1, 5, 3)
+heroism = st.slider('Heroismo: ¿Involucra exhibiciones belicistas de dominancia?', 1, 5, 3)
+deference = st.slider(': ¿Involucra exhibiciones conciliadoras de respeto?', 1, 5, 3)
+fairness = st.slider('Equidad: ¿Involucra división de recursos disputados?', 1, 5, 3)
+property = st.slider('Derechos de propiedad: ¿Involucra reconocimiento de posesión previa?', 1, 5, 3)
 
 if st.button('Registrar Conducta'):
     if description:
